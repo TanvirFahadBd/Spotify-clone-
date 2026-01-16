@@ -1,12 +1,14 @@
 import React from 'react'
 import "./App.css";
 import Sidebar from './component/Sidebar';
+import Plyer from './component/plyer';
 
 const App = () => {
   return (
-    <div className='h-screen bg-black w-screen' >
-      <div className='h-[90%] flex'>
+    <div className='h-screen bg-black' >
+      <div className='h-[100%] flex flex-col'>
         <Sidebar/>
+        <Plyer/>
       </div>
     </div>
   )
